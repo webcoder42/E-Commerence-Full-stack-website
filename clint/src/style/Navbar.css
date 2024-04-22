@@ -1,0 +1,47 @@
+/* Header */
+.navbar {
+    background-color: #ffffff; /* Set background color for the navbar */
+    border-bottom: 1px solid #dee2e6; /* Add a border to separate navbar from content */
+  }
+  
+  .navbar-brand {
+    color: #333; /* Set text color for the brand */
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #333; /* Set text color for links */
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #007bff; /* Change text color on hover/focus */
+  }
+  
+  .dropdown-menu {
+    background-color: #ffffff; /* Set background color for dropdown menu */
+    border: 1px solid rgba(0, 0, 0, 0.15); /* Add border to dropdown menu */
+  }
+  
+  .dropdown-item {
+    color: #333; /* Set text color for dropdown items */
+  }
+  
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: rgba(0, 123, 255, 0.25); /* Change background color on hover/focus */
+    color: #007bff; /* Change text color on hover/focus */
+  }
+  
+  /* Cart badge */
+  .navbar-nav .position-relative .badge {
+    background-color: #007bff; /* Set background color for badge */
+    color: #ffffff; /* Set text color for badge */
+    font-size: 0.75rem; /* Adjust font size for badge */
+  }
+  
+  /* Active link */
+  .active {
+    font-weight: bold; /* Make active link bold */
+  }
+  
